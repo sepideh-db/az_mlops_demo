@@ -33,7 +33,7 @@ targets:
     workspace:
       host: https://e2-demo-west.cloud.databricks.com/
 
-  test:
+  aztest:
     workspace:
       host: https://e2-demo-west.cloud.databricks.com/
 
