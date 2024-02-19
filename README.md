@@ -5,6 +5,7 @@ This directory contains an ML project based on the default
 defining a production-grade ML pipeline for automated retraining and batch inference of an ML model on tabular data.
 The "Getting Started" docs can be found at https://docs.databricks.com/dev-tools/bundles/mlops-stacks.html.
 
+
 See the full pipeline structure below. The [MLOps Stacks README](https://github.com/databricks/mlops-stacks/blob/main/Pipeline.md)
 contains additional details on how ML pipelines are tested and deployed across each of the dev, staging, prod environments below.
 
