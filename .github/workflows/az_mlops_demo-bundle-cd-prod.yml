@@ -6,8 +6,8 @@ name: Bundle Deployment for az_mlops_demo Prod
 
 on:
   push:
-    branches:
-      - 'release'
+    tags:
+      - 'v*'
   workflow_dispatch:
 
 defaults:
