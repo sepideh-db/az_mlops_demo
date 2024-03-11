@@ -43,4 +43,4 @@ jobs:
       - name: Run Inference Workflow
         id: inference
         run: |
-          databricks bundle run batch-inference-job -t prod
+          databricks bundle run batch_inference_job -t prod
