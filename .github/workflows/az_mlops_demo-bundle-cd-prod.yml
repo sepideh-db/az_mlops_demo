@@ -40,7 +40,3 @@ jobs:
         id: training
         run: |
           databricks bundle run model_training_job -t prod
-      - name: Run Inference Workflow
-        id: inference
-        run: |
-          databricks bundle run batch_inference_job -t prod
